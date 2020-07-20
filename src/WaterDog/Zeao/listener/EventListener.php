@@ -11,6 +11,7 @@ use WaterDog\Zeao\API;
 
 
 class EventListener implements Listener{
+	public $plugin;
 public function ___construct(Loader $plugin){
     $this->plugin = $plugin;
 }
