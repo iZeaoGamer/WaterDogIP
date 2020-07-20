@@ -5,4 +5,6 @@ branches:
 projects:
   WaterDogIP:
     path: ""
+    lint:
+      phpstan: false
 ...
