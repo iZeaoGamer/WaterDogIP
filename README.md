@@ -1,4 +1,5 @@
-## Yet another useful plugin, allowing you to detect player's real IPS rather than using WaterDog's IP address.
+## Description
+Yet another useful plugin, allowing you to detect player's real IPS rather than using WaterDog's IP address.
 
 
 ## What can this plugin do?
