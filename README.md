@@ -1,4 +1,5 @@
-## Yet another useful plugin, allowing you to detect player's real IPS rather than using WaterDog's IP address.
+## Description
+Yet another useful plugin, allowing you to detect player's real IP's rather than using WaterDog's IP address.
 
 
 ## What can this plugin do?
@@ -17,25 +18,25 @@ Not at the moment. The only updates that will most likely be made, is bug fixes 
 First, you want to import the class:
 ```php
 <?php
-use WaterDog\Zeao\API
+use WaterDog\Zeao\API;
 ```
 You can use methods into two ways.
 
 One of the ways, you can use:
 ```php
-$this->getAPI();
+<?php
+use WaterDog\Zeao\Loader;
+
+Loader::getInstance()->getAPI();
 ```
 Which returns as the API class. This is used to obtain a player's Client IP later on.
 
 And the other way, you can use:
 ```php
 
-API::getClientIP($player)
+API::getClientIP($player);
 ```
 
 This is used to obtain a $player class using pocketmine's Player::class subjective.
 
 The $player variable is the variable for the Player::class, which can be used to detect the player's Client IP. You'd more than likely to use this on plugins like ip banning a player, IP Logging a player, detecting a player's IP on join (If need to be stored anywhere else).
-
-
-

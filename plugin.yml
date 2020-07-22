@@ -2,4 +2,4 @@ name: WaterDog
 version: 1.0.0
 api: 3.0.0
 author: Zeao
-main: WaterDog\Zeao\Main
+main: WaterDog\Zeao\Loader
