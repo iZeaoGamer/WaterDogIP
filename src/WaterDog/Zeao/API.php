@@ -43,7 +43,7 @@ static function getConnectingClientIP(string $player): string{
 	 * @param string $player
 	 * @return null|string
 	 */
-function getLowerCasedName(string $player): ?string{
+static function getLowerCasedName(string $player): ?string{
 $playerClass = Loader::getInstance()->getServer()->getOfflinePlayer($player);
 		if($playerClass instanceof Player){
 			return $player->getLowerCaseName();
