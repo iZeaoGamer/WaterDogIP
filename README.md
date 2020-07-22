@@ -40,3 +40,7 @@ API::getClientIP($player);
 This is used to obtain a $player class using pocketmine's Player::class subjective.
 
 The $player variable is the variable for the Player::class, which can be used to detect the player's Client IP. You'd more than likely to use this on plugins like ip banning a player, IP Logging a player, detecting a player's IP on join (If need to be stored anywhere else).
+
+
+## Examples
+You can check out some examples here: https://github.com/iZeaoGamer/WaterDogIP/tree/master/examples
