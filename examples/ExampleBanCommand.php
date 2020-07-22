@@ -3,7 +3,7 @@ namespace examples;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use WatchDog\Zeao\API;
+use WaterDog\Zeao\API;
 use pocketmine\utils\TextFormat;
 
 class ExampleBanCommand extends Command{
