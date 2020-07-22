@@ -43,4 +43,4 @@ The $player variable is the variable for the Player::class, which can be used to
 
 
 ## Examples
-You can check out some examples here: https://github.com/iZeaoGamer/WaterDogIP/tree/master/examples
+You can check out some examples here: [here](https://github.com/iZeaoGamer/WaterDogIP/tree/master/examples)
