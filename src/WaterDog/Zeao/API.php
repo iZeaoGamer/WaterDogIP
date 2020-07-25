@@ -46,7 +46,7 @@ static function getConnectingClientIP(string $player): string{
 static function getLowerCasedName(string $player): ?string{
 $playerClass = Loader::getInstance()->getServer()->getOfflinePlayer($player);
 		if($playerClass instanceof Player){
-			return $player->getLowerCaseName();
+			return $playerClass->getLowerCaseName();
 		}
 		if($playerClass instanceof OfflinePlayer){
 			if($playerClass->hasPlayedBefore()){
