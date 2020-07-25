@@ -24,8 +24,9 @@ class ExampleBanCommand extends Command{
                 $sender->sendMessage(TextFormat::colorize("&cThis player's IP is already banned, silly!"));
                 return false;
             }
-            $ip = filter_var($args[0], FILTER_VALIDATE_IP);
+            
             $player = $sender->getServer()->getPlayer($args[0]);
+            $ip = API::getClientIP($player);
             if(isset($args[1])){
                 if ($ip != null) {
                     $banList->addBan($ip, null, null, $sender->getName());
