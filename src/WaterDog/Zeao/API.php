@@ -9,7 +9,7 @@ class API{
     static $clientIP = [];
 
 static function getClientIP(Player $player): string{
-        return (string)self::$clientIP[$player->getLowerCaseName()];
+        return (string)self::$clientIP[$this->getLowerCasedName($player->getName())];
 }
 static function getConnectingClientIP(string $player): string{
     return (string)self::$clientIP[$this->getLowerCaseName($player)];
