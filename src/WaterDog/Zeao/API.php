@@ -38,7 +38,7 @@ static function getConnectingClientIP(string $player): string{
 	 * Checks a lower case name of a player.
 	 *
      * If player is online, it'll return as a lowercase name.
-     * If the player doesn't exit and has never joined the server before,
+     * If the player doesn't exist and has never joined the server before,
      * it'll return null
 	 * @param string $player
 	 * @return null|string
