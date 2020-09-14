@@ -21,7 +21,7 @@ public function ___construct(Loader $plugin){
 			if($packet instanceof LoginPacket){
                 $user = $packet->username;
 				 API::$clientIP[API::getLowerCasedName($user)] = $packet->clientData["Waterdog_IP"]; 
-				$this->plugin->getLogger()->debug($user . "'s real IP is: " . $packet->clientData["Waterdog_IP"]); //for testing purposes.
+		
             }
     }
 }
